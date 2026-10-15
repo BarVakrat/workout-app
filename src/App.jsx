@@ -347,8 +347,8 @@ function CalendarScreen({ completions, workouts, onOpenPrograms, onOpenWorkout, 
   const navBtn = { background: "none", border: "none", color: DARK_TEXT_SOFT, borderRadius: "50%", width: 32, height: 32, cursor: "pointer", fontSize: 16 };
   const ctaBtn = { ...darkBtn(true), width: "100%", padding: "14px", fontSize: 15, boxShadow: GLOW_ORANGE };
   const darkCard = {
-    background: "rgba(10,10,14,0.45)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)",
-    border: "1px solid rgba(255,255,255,0.1)", borderRadius: 18, padding: 18,
+    background: "rgba(10,10,14,0.12)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)",
+    border: "1px solid rgba(255,255,255,0.14)", borderRadius: 18, padding: 18,
   };
 
   return (
